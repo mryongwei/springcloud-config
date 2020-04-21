@@ -4,6 +4,8 @@ spring:
       - dev
 
 ---
+server:
+  port: 3355
 spring:
   profiles: dev
   application:
